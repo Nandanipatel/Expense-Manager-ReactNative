@@ -19,7 +19,7 @@ export default AllExpenses;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
     backgroundColor: GlobalStyles.colors.primary700,
+    
   },
 });

@@ -3,63 +3,21 @@ import { createContext, useReducer } from "react";
 const DUMMY_EXPENSES = [
   {
     id: "e1",
-    description: "A pair of sandals",
-    amount: 29.99,
+    description: "Ring",
+    amount: 25000,
     date: new Date("2022-10-16"),
   },
   {
     id: "e2",
-    description: "Jeans",
-    amount: 13.43,
-    date: new Date("2022-10-14"),
+    description: "Shoes",
+    amount: 5000,
+    date: new Date("2022-10-18"),
   },
   {
     id: "e3",
-    description: "Errings",
-    amount: 14.56,
-    date: new Date("2021-01-11"),
-  },
-  {
-    id: "e4",
-    description: "Ring",
-    amount: 89.23,
-    date: new Date("2021-01-10"),
-  },
-  {
-    id: "e5",
-    description: "A pair of shoes",
-    amount: 12.99,
-    date: new Date("2021-01-09"),
-  },
-  {
-    id: "e6",
-    description: "A pair of sandals",
-    amount: 29.99,
-    date: new Date("2021-02-04"),
-  },
-  {
-    id: "e7",
-    description: "Jeans",
-    amount: 13.43,
-    date: new Date("2021-11-03"),
-  },
-  {
-    id: "e8",
-    description: "Errings",
-    amount: 14.56,
-    date: new Date("2021-01-11"),
-  },
-  {
-    id: "e9",
-    description: "Ring",
-    amount: 89.23,
-    date: new Date("2021-01-10"),
-  },
-  {
-    id: "e10",
-    description: "A pair of shoes",
-    amount: 12.99,
-    date: new Date("2021-01-09"),
+    description: "Watch",
+    amount: 7500,
+    date: new Date("2022-09-17"),
   },
 ];
 
